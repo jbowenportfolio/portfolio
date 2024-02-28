@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8aa284;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me, .projects, .contact {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.graphic {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+<img class="graphic" src="graphic.png"/>
+
+/* Initially hide the footer */
+#main-footer {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center; /* Vertically align items in the center */
+}
+
+.profile-photo {
+    max-width: 100px; /* Adjust the width of the photo as needed */
+    border-radius: 15%;
+    margin-right: 20px; /* Add some right margin for spacing */
+}
+
+.about-me p {
+    max-width: 600px; /* Adjust the width of the text content as needed */
+}
+
+
+.contact {
+    margin-bottom: 90px; /* Adjust the margin as needed */
+}
+
+
+
+
+.essay-content {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.essay-content h2 {
+    font-size: 1.5em; /* Adjust the font size for heading as needed */
+    text-align: center
+}
+
+.essay-content p {
+    font-size: 1.2em; /* Adjust the font size for paragraphs as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    margin-bottom: 15px; /* Add some bottom margin for spacing */
+}
+
